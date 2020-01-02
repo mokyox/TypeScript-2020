@@ -27,11 +27,13 @@ const throwError = (message: string): string => {
   return message;
 };
 
-const forecast = {
+const todaysWeather = {
   date: new Date(),
   weather: 'sunny'
 };
 
-const logWeather = (forecast: { date: string; weather: string }) => {
-  console.log(forecast);
+const logWeather = ({ date, weather }: { date: Date; weather: string }) => {
+  console.log(date, weather);
 };
+
+logWeather(todaysWeather);
