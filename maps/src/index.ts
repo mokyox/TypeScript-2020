@@ -8,7 +8,6 @@
 // console.log(company);
 
 new google.maps.Map(document.getElementById('map'), {
-  backgroundColor: 'blue',
   zoom: 1,
   center: {
     lat: 0,
