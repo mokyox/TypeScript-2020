@@ -1,5 +1,5 @@
 class HoldAnything<T> {
-  //We treat TypeOfData as if it were an argument to this class
+  //We treat <T> as if it were an argument to this class
   data: T;
 }
 
