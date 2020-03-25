@@ -4,6 +4,7 @@ import { MatchResult } from './MatchResult';
 type MatchData = [Date, string, string, number, number, MatchResult, string];
 
 interface DataReader {
+  //This interface matches the CsvFileReader class
   read(): void;
   data: string[][];
 }
